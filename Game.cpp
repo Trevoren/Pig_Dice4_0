@@ -16,7 +16,7 @@ Game::Game() {
     gameOver=false;
     while(gameOver==false) {
         turn.Choice();
-        if(turn.score >= 20) {
+        if(turn.getScore() >= 20) {
             gameOver=true;
         }
     }

@@ -11,6 +11,7 @@ class Turn {
 private:
     int score_this_turn =0;
     int turn=1;
+    int score =0;
     bool turn_over=false;
     Die die;
     void roll(int val);
@@ -18,7 +19,7 @@ private:
 
     public:
     void Choice();
-    int score =0;
+    int getScore();
 };
 
 #endif //TURN_H

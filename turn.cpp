@@ -41,3 +41,7 @@ void Turn::Choice() {
   cout << "Invalid choice! Try again." << endl;
  }
 }
+
+int Turn::getScore() {
+ return score;
+}
